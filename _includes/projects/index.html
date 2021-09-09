@@ -1,0 +1,19 @@
+<div class="card-group mt-2">
+
+  {% assign projects = site.pages | sort:'release-date' %}
+  {% for project in projects reversed %}
+    {% if project.url contains "projects/" and project.name contains "about.md" %}
+      {% capture project_img %}{{ project.url }}/preview.png{% endcapture %}
+      {% assign project_id    = project.title | slugify %}
+      {% assign project_name  = project.title %}
+      {% assign project_desc  = project.description %}
+      {% assign project_type  = project.type %}
+      {% assign project_tools = project.tools %}
+      {% assign project_roles = project.roles %}
+      {% assign project_url   = project.url | relative_url %}
+
+      {% include projects/project-card.html %}
+    {% endif %}
+  {% endfor %}
+
+</div>

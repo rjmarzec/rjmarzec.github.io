@@ -1,0 +1,119 @@
+### Site Settings ###
+title               : Robert Marzec
+description         : a software developer's website
+baseurl             : ""                               # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - projects/**
+
+
+### Author Info ###
+author:
+  name              : Robert Marzec
+  image             : https://www.archanaskitchen.com/images/archanaskitchen/BasicRecipes_HOW_TO/Bread_toast_recipe.jpg
+# behance           : your_username
+# dribbble          : your_username
+  email             : robertmarzecj@gmail.com
+# facebook          : your_username
+  github            : rjmarzec
+# gitlab            : your_username
+# instagram         : your_username
+  linkedin          : rjmarzec
+# medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : rjmarzec_
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections_dir: docs
+collections:
+  projects:
+    output: true
+    permalink: projects/:categories/:slug
+  projects-about:
+    output: true
+    permalink: projects/:name
+  projects-play:
+    output: true
+    permalink: projects/:name/play
+  projects-postmortem:
+    output: true
+    permalink: projects/:name/postmortem
+
+
+### Disqus ###
+disqus:
+  shortname: rjmarzec                                   # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: true                                         # Set true to enable analytics
+  google:
+    tracking_id: UA-187912924-1
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: "projects/*/about.md"
+      type: "pages"
+    values:
+      layout: "page"
+      read_time: false
+      comments: false
+      permalink: "/:path"
+  - scope:
+      path: "projects/*/play.md"
+      type: "pages"
+    values:
+      layout: "page"
+      read_time: false
+      comments: false
+      permalink: "/:path/play"
+  - scope:
+      path: "projects/*/postmortem.md"
+      type: "pages"
+    values:
+      layout: "post"
+      read_time: true
+      comments: true
+      permalink: "/:path/postmortem"
+  - scope:
+      path: "projects/~template/"
+      type: "pages"
+    values:
+      published: false
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
+  - "*.css"
+
+
+### Enable incremental building ###
+incremental: true

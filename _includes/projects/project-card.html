@@ -1,0 +1,24 @@
+<div class="col-sm-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <a href="{{ project_url }}" class="project card h-100 text-themed">
+    {%- if project_img -%}
+    <img id="{{ project_id }}-img" class="card-img-top" src="{{ project_img }}" alt="{{ project_name }}" />
+    {%- endif -%}
+    <div class="card-body">
+      <h5 id="{{ project_id }}-name" class="card-title">{{ project_name }}</h5>
+      <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
+      <p id="{{ project_id }}-type-tools-roles" class="card-text">
+        <small>
+          A {{ project_type }} built using:
+          {%- for tag in project_tools -%}
+            <span class="badge badge-pill text-primary border border-primary ml-1">{{ tag }}</span>
+          {%- endfor -%}
+        <br>
+          Roles:
+          {%- for tag in project_roles -%}
+            <span class="badge badge-pill text-primary border border-primary ml-1">{{ tag }}</span>
+          {%- endfor -%}
+        </small>
+      </p>
+    </div>
+  </a>
+</div>
