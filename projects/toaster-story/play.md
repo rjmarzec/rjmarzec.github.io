@@ -1,6 +1,6 @@
 ---
-title: Game Name Here
-web_build_dir: "Web Build Folder Name"
+title: Toaster Story
+web_build_dir: "Toaster_Story_Web_Build"
 ---
 
 {% include projects/unity-web-build.html %}

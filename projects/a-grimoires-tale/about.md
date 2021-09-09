@@ -4,7 +4,7 @@ type: desktop game
 tools: [Unity]
 roles: [Producer, Programmer, Artist]
 release-date: 2021-04-21 # YYYY-MM-DD
-description: "The evil wizard has returned to steal the secrets of magic from the library! Sling all sorts of combined spells to take down him and his lackies in this fast-paced action deckbuilder."
+description: "The evil wizard has returned to steal the secrets of magic from the library! Sling all sorts of combined spells to take down him and his lackeys in this fast-paced action deckbuilder."
 ---
 
 This is the about page for each project.   

@@ -1,0 +1,17 @@
+{
+"companyName": "",
+"productName": "Quiet In The Deep",
+"productVersion": "1.494",
+"dataUrl": "quiet_in_the_deep.data.unityweb",
+"wasmCodeUrl": "quiet_in_the_deep.wasm.code.unityweb",
+"wasmFrameworkUrl": "quiet_in_the_deep.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "quiet_in_the_deep.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.18f1"
+}
