@@ -1,5 +1,5 @@
 ---
-title: A Grimoire's Tale
+title: Game Name Here
 web_build_dir: "Web Build Folder Name"
 ---
 

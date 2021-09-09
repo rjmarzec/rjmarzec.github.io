@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "494_p2_The_Cardist",
+"productVersion": "0.1",
+"dataUrl": "eecs_494_p2_the_cardist_prototype.data.unityweb",
+"wasmCodeUrl": "eecs_494_p2_the_cardist_prototype.wasm.code.unityweb",
+"wasmFrameworkUrl": "eecs_494_p2_the_cardist_prototype.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.18f1"
+}
