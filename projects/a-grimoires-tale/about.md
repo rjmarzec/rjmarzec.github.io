@@ -24,7 +24,7 @@ description: "The evil wizard has returned to steal the secrets of magic from th
 
 A Grimoire's Tale is an exploration into what it means to cross an action game with a deckbuilder. Both genres sit on opposite spectrums with regards to skill vs strategy required, so combining the two into something special lead to an interesting project to work on. The end result was a game that's super engaging as you constantly have to balance attacking, dodging, and queueing up just the right set of spells. Go give it a try at the links above!  
 
-A Grimoire's Tale was developed over 7 weeks in a team of 5 programmers as a part of a game development course I took. Not only that, but this was at the peak of online university classes, so my team also had to work through how to be effective as a unit when all we had is online contact. It was a learning experience for all of us, but I'm proud with where we managed to end up.  
+A Grimoire's Tale was developed over 7 weeks in a team of 5 programmers as a part of a game development course I took during the second semester of my sophomore year (early 2021). Not only that, but this was at the peak of online university classes, so my team also had to work through how to be effective as a unit when all we had is online contact. It was a learning experience for all of us, but I'm proud with where we managed to end up.  
 
 ---
 
