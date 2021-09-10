@@ -22,9 +22,9 @@
     var buildUrl = {{ page.web_build_dir }} + "Build";
     var loaderUrl = buildUrl + "/{{ page.web_build_dir }}.loader.js";
     var config = {
-      dataUrl: buildUrl + "/{{ page.web_build_dir }}.data.gz",
-      frameworkUrl: buildUrl + "/{{ page.web_build_dir }}.framework.js.gz",
-      codeUrl: buildUrl + "/{{ page.web_build_dir }}.wasm.gz",
+      dataUrl: buildUrl + "/{{ page.web_build_dir }}.data",
+      frameworkUrl: buildUrl + "/{{ page.web_build_dir }}.framework.js",
+      codeUrl: buildUrl + "/{{ page.web_build_dir }}.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "rjmarzec Games",
       productName: "{{ page.title }}",
@@ -38,6 +38,7 @@
     var fullscreenButton = document.querySelector("#unity-fullscreen-button");
     var mobileWarning = document.querySelector("#unity-mobile-warning");
 
+    /*
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
       container.className = "unity-mobile";
       config.devicePixelRatio = 1;
@@ -46,13 +47,14 @@
         mobileWarning.style.display = "none";
       }, 5000);
     } else {
-      canvas.style.width = "800px";
-      canvas.style.height = "500px";
+      canvas.style.width = "960px";
+      canvas.style.height = "600px";
     }
-    canvas.style.width = "800px";
-    canvas.style.height = "500px";
-
-    loadingBar.style.display = "none";
+    loadingBar.style.display = "block";
+    */
+    canvas.style.width = "960px";
+    canvas.style.height = "600px";
+    loadingBar.style.display = "block";
 
     var script = document.createElement("script");
     script.src = loaderUrl;
@@ -72,4 +74,5 @@
   </script>
 </body>
 
+brr
 <br>
