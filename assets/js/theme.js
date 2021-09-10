@@ -10,6 +10,7 @@ const themes = {
 initTheme();
 
 function initTheme() {
+  /*
   const savedTheme = localStorage.getItem(STORAGE_KEY);
 
   if (savedTheme) {
@@ -22,12 +23,12 @@ function initTheme() {
     // Default theme
     setTheme(themes.LIGHT);
   }
+  */
 
-  // Watch for system theme changes
-  window.matchMedia(QUERY_KEY).addEventListener("change", (e) => {
-    const newTheme = e.matches ? themes.DARK : themes.LIGHT;
-    setTheme(newTheme);
-  });
+  // Always go with the light theme, as that's what the site will be
+  // designed around. The rest of the code is still here for functionality
+  // in swapping things at some point maybe down the line.
+  setTheme(themes.LIGHT);
 }
 
 function toggleTheme() {
