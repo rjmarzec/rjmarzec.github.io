@@ -7,6 +7,13 @@ release-date: 2020-04-20 # YYYY-MM-DD
 description: "What happens when two rival beehives meet up? A fight to the death of course! In this local 1v1 autobattler, send your bees into battle to out-plan and take down the opposing hive."
 ---
 
+![The Bee Game logo]({{ page.url }}/logo.png)
+
+![A screenshot from Bee Game]({{ page.url }}/preview.png)  
+
+
+
+
 This is the about page for each project.   
 
 Lots of fun stuff would be here, like my roles, a bit about the game, the video link, download links, and more!  
