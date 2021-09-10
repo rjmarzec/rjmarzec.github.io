@@ -50,3 +50,4 @@ Programmer:
 * Performance optimization through object pooling
 * Purchasable powerups
 * Game balancing and tuning mechanisms
+* Fixing merge conflicts in Plastic, our version control software
