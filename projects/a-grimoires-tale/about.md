@@ -44,6 +44,7 @@ Programmer:
 * Event system implementation
 * Feature merging and last-minute bug fixing
 * Game balancing
+* Resolving git issues and merge conflicts
 
 Artist:
 * Every single piece of artwork in the game
