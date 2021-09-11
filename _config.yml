@@ -112,7 +112,3 @@ exclude:
   - LICENSE
   - "*.log"
   - "*.css"
-
-
-### Enable incremental building ###
-incremental: true
