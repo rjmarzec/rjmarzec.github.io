@@ -29,5 +29,6 @@ I developed Roshambomoku during the start of 2021 during my winter break of my s
 
 ---
 
-[Check out the project on GitHub here!](https://github.com/rjmarzec/roshambomoku) 
+[Check out the project on GitHub here!](https://github.com/rjmarzec/roshambomoku)  
+<br>
 [Interested in hearing more about the development process? Click here to check out the project postmortem!]({{ page.url }}/postmortem)  

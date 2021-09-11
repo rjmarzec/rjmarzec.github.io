@@ -2,11 +2,10 @@
 layout: page
 ---
 
-<h1><b>{{ page.title }}</b></h1>
+<h3><b>{{ page.title }}</b></h3>
 
 <p class="post-metadata text-muted">
   {% if page.read_time == true %}
-    {{ page.date | date_to_long_string }} -
     <b>
     {%- assign words = content | number_of_words -%}
     {%- if words < 360 -%}
@@ -19,7 +18,7 @@ layout: page
     <br>
   {% endif %}
 
-  {%- if page.tags != empty -%}
+  {%- if page.tags.size > 0 -%}
     Tags:
     {% for tag in page.tags %}
     <a class="text-decoration-none no-underline">
