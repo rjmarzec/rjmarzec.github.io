@@ -11,16 +11,14 @@ plugins:
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
+  - pages/privacy**
   - projects/**
 
 
 ### Author Info ###
 author:
   name              : Robert Marzec
-  image             : https://www.archanaskitchen.com/images/archanaskitchen/BasicRecipes_HOW_TO/Bread_toast_recipe.jpg
+  image             : /assets/images/about-photo.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : robertmarzecj@gmail.com

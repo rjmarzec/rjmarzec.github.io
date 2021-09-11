@@ -5,19 +5,29 @@ permalink: /about/
 weight: 3
 ---
 
-Hi there!  
+#### Hi there!  
 
-I'm Robert Marzec, and welcome to my website. I'm a Junior studying Computer Science at the University of Michigan, and I love crafting tools and experiences for others to enjoy. Between wacky hackathon games testing dumb ideas to mobile app tools I've published to a substantive number of downloads, I've done a lot of cool things with my skills.  
+I'm Robert Marzec, and this is my website. Here you'll find a portfolio of my past projects, my resume, and a bit about me!
 
-If you're looking for a software developer that doesn't take himself all too serious and has lots of fun ideas, you've come to the right site. Feel free to click around and check out some of my previous projects and resume if that interests you.
+I'm currently a Junior majoring in Computer Science and minoring in Business at the University of Michigan. I love cats, games, and building awesome experiences for people. Between weird hackathon games and random mobile tools, I've done some cool stuff.
 
-/asets/images/about_image.jpg
-![A picture of me](/assets/images/about_picture.jpg)  
+If you're looking for a software developer who doesn't take himself too seriously and comes bundled with lots of fun ideas, you've come to the right site. While we're at it, here's a fun picture of me with a smoothie:  
 
-### Credits  
+![A picture of me](/assets/images/about-photo.jpg)  
 
-*To be rewritten...*  
+#### Credits  
 
-### Contact Me  
+While this is my site, I'm not responsible for all the work behind it. I would like to extend a thanks to:
+- [Jekyll](https://jekyllrb.com/), the static site generator that made this site possible
+- [GitHub pages](https://pages.github.com/), for the free site hosting
+- [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU), the Jekyll theme this site started out from
 
-If anything looks interesting, let me know! You can reach me at [robertmarzecj@gmail.com](mailto:robertmarzecj@gmail).  
+#### Privacy Policy
+
+This site collects some of your data for convenience and analytics purposes. Read more about it [here](/privacy).
+
+#### Contact Me  
+
+If anything looks interesting, let me know! You can reach me at [robertmarzecj@gmail.com](mailto:robertmarzecj@gmail) or by carrier pigeon.  
+
+<img src="/assets/images/book-pog.png" alt="Book Pog" width="50"/>
