@@ -47,4 +47,5 @@ Programmer:
 
 ---
 
+[Check out the project on GitHub here!](https://github.com/rjmarzec/Pet-Power-Down)
 [Interested in hearing more about the development process? Click here to check out the project postmortem!]({{ page.url }}/postmortem)  

@@ -28,3 +28,7 @@ If you're looking for a simple tool to help you coordinate meetups with friends,
 
 ### Roles & Responsibilities:
 * Everything!  
+
+---
+
+[Check out the project on GitHub here!](https://github.com/rjmarzec/meet_you_in_the_middle)

@@ -30,4 +30,5 @@ For this being my first project in Unity and having to work on it all on my own 
 
 ---
 
+[Check out the project on GitHub here!](https://github.com/rjmarzec/Bee_Game)
 [Interested in hearing more about the development process? Click here to check out the project postmortem!]({{ page.url }}/postmortem)  

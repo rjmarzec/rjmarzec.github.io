@@ -31,3 +31,7 @@ Programmer:
 
 Artist:
 * Every piece of artwork in the game!
+
+---
+
+[Check out the project on GitHub here!](https://github.com/rjmarzec/quiet-in-the-deep)
