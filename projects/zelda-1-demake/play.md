@@ -18,10 +18,13 @@ web_build_dir: "eecs_494_p1_zelda"
 
 <br>
 
+Instructions:
+* Movement: Arrow Keys  
+* Sword attack: X  
+* Special Weapons: Z  
+* Rotate Special Weapon: Space  
+* Custom Ice Wand: C  
+* God Mode: 1  
+* Custom Level Warp: 4  
 
-This is how you make a Unity game show up, just make sure the tag here is correct.
-
-This is the play page. You would have an in-browser game available here (probably).
-
-This is how you link an image here:
-![This is how you link is an image]({{ page.dir }}preview.png)
+Thanks for playing!

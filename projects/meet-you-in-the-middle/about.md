@@ -22,7 +22,7 @@ Meet You In The Middle is a simple and lightweight tool that helps small groups 
 
 I developed Meet You In The Middle during early 2021 (sophomore year semester 2) as a fun side-project between classes. The idea is actually one I've built and iterated on before a few time to various level of success, but this was the first time I took it all the way through and published it. As my second published app in Flutter (despite being the first app I *tried* to build in Flutter), I learned a lot about how useful well-organized code is and how to use an awesome framework that I'm ready to toss into another project when my next great app idea comes to mind.
 
-If you're looking for a simple tool to help you coordinate meetups with friends, give it a download and join the other 1k+ that already have!
+If you're looking for a simple tool to help you coordinate meetups with friends, give it a download and join the other 1,000+ that already have!
 
 ---
 

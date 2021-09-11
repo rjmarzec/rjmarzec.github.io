@@ -13,7 +13,7 @@ description: "What happens when two rival beehives meet up? A fight to the death
 
 <h1>
   <p style="text-align: center;">
-      <a href="{{ page.url }}/Bee_Game_Executables.zip" download>Download the game here!</a>
+      <a href="{{ page.url }}/bee-game-executables.zip" download>Download the game here!</a>
   </p>
 </h1>
 
