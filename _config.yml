@@ -44,20 +44,10 @@ permalink: /blog/:title
 
 
 ### Collections ###
-collections_dir: docs
-collections:
-  projects:
-    output: true
-    permalink: projects/:categories/:slug
-  projects-about:
-    output: true
-    permalink: projects/:name
-  projects-play:
-    output: true
-    permalink: projects/:name/play
-  projects-postmortem:
-    output: true
-    permalink: projects/:name/postmortem
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:name
 
 
 ### Disqus ###
