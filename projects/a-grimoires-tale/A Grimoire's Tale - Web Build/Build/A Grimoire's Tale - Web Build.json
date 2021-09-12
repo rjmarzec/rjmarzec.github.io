@@ -1,0 +1,17 @@
+{
+"companyName": "Toasty Lion Studios",
+"productName": "A Grimoire's Tale",
+"productVersion": "1.494",
+"dataUrl": "A Grimoire's Tale - Web Build.data.unityweb",
+"wasmCodeUrl": "A Grimoire's Tale - Web Build.wasm.code.unityweb",
+"wasmFrameworkUrl": "A Grimoire's Tale - Web Build.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "A Grimoire's Tale - Web Build.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.18f1"
+}
