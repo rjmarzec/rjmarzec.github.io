@@ -101,11 +101,22 @@ defaults:
 
 ### Exclude from processing ###
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - README.md
   - CONTRIBUTING.md
   - LICENSE
-  - "*.log"
-  - "*.css"
+  - '*.log'
+  - '*.css'
+  - 'projects/*/*/index.html'
 
 ### Enabling incremental builds to improve build times locally
 incremental: true
