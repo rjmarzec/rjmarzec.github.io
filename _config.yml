@@ -7,6 +7,8 @@ baseurl             : ""                               # Change to empty quotes 
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 
 ### Navbar Settings ###
@@ -14,6 +16,8 @@ nav_exclude:                                            # The following paths ar
   - pages/privacy**
   - pages/404**
   - projects/**
+  - robots.txt
+  - sitemap.xml
 
 
 ### Author Info ###

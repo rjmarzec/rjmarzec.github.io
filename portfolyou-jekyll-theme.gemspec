@@ -17,5 +17,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-gist", "~> 1.5.0"
   spec.add_runtime_dependency "jekyll-github-metadata", "~> 2.13.0"
   spec.add_runtime_dependency "jemoji", "~> 0.12.0"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.7.1"
+  spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4.0"
 
 end
