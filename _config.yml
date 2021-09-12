@@ -112,3 +112,6 @@ exclude:
   - LICENSE
   - "*.log"
   - "*.css"
+
+### Enabling incremental builds to improve build times locally
+incremental: true
