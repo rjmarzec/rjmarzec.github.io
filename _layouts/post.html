@@ -2,4 +2,36 @@
 layout: page
 ---
 
+<h3><b>{{ page.title }}</b></h3>
+
+<p class="post-metadata text-muted">
+  {% if page.read_time == true %}
+    <b>
+    {%- assign words = content | number_of_words -%}
+    {%- if words < 360 -%}
+      less than 1 min read time
+    {%- else -%}
+      {{ words | divided_by: 180 }} mins read time
+    {%- endif -%}
+    </b>
+
+    <br>
+  {% endif %}
+
+  {%- if page.tags.size > 0 -%}
+    Tags:
+    {% for tag in page.tags %}
+    <a class="text-decoration-none no-underline">
+      <span class="badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    </a>
+    {% endfor %}
+  {%- endif -%}
+</p>
+
 {{ content }}
+
+{% if page.comments %}
+<div class="pt-5">
+  {% include blog/disqus.html %}
+</div>
+{% endif %}
