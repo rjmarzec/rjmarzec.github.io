@@ -2,32 +2,5 @@
 layout: page
 title: About
 permalink: /about
-weight: 3
+weight: 1
 ---
-
-#### Hi there!  
-
-I'm Robert Marzec, and this is my website. Here you'll find a portfolio of my past projects, my resume, and a bit about me!
-
-I'm currently a Junior majoring in Computer Science and minoring in Business at the University of Michigan. I love cats, games, and building awesome experiences for people. Between weird hackathon games and random mobile tools, I've done some cool stuff.
-
-If you're looking for a software developer who doesn't take himself too seriously and comes bundled with lots of fun ideas, you've come to the right site. While we're at it, here's a fun picture of me with a smoothie:  
-
-![A picture of me](/assets/images/about-photo.jpg)  
-
-#### Credits  
-
-While this is my site, I'm not responsible for all the work behind it. I would like to extend a thanks to:
-- [Jekyll](https://jekyllrb.com/), the static site generator that made this site possible
-- [GitHub pages](https://pages.github.com/), for the free site hosting
-- [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU), the Jekyll theme this site started out from
-
-#### Privacy Policy
-
-This site collects some of your data for convenience and analytics purposes. Read more about it [here](/privacy).
-
-#### Contact Me  
-
-If anything looks interesting, let me know! You can reach me at [robertmarzecj@gmail.com](mailto:robertmarzecj@gmail) or by carrier pigeon.  
-
-<img src="/assets/images/book-pog.png" alt="Book Pog" width="50"/>
