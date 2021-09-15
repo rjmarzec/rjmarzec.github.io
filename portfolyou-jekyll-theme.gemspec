@@ -19,5 +19,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jemoji", "~> 0.12.0"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.7.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4.0"
+  spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.16.0"
 
 end
