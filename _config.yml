@@ -13,12 +13,12 @@ plugins:
 
 
 ### Navbar Settings ###
+nav_include:
+  - pages/**
+
 nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/privacy**
-  - pages/404**
-  - projects/**
-  - robots.txt
-  - sitemap.xml
+  - pages/privacy
+  - pages/404
 
 
 ### Author Info ###
@@ -49,10 +49,14 @@ permalink: /blog/:title
 
 
 ### Collections ###
-# collections:
-#   projects:
-#     output: true
-#     permalink: /projects/:name
+collections_dir: collections
+collections:
+  devtober-2021:
+    output: true
+    permalink: /:collection/:title
+# projects:
+#   output: true
+#   permalink: /projects/:name
 
 
 ### Disqus ###
@@ -118,6 +122,7 @@ exclude:
   - '*.log'
   - '*.css'
   - 'projects/*/*/index.html'
+  - post/projects
 
 ### Enabling incremental builds to improve build times locally
 incremental: true

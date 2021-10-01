@@ -14,25 +14,24 @@
 
       {%- for html_page in html_pages -%}
 
-        {%- assign exclude = false -%}
+        {%- assign exclude = true -%}
 
-        {%- if html_page.path contains 'assets/' -%}
-          {%- assign exclude = true -%}
-        {%- endif -%}
+        {%- for include_path in site.nav_include -%}
+          {%- assign match = include_path | remove: '**' -%}
+          {%- if html_page.path contains match -%}
+            {%- assign exclude = false -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
 
         {%- for exclude_path in site.nav_exclude -%}
-
-          {%- if exclude_path == html_page.path -%}
-            {%- assign exclude = true -%}
-            {%- break -%}
-          {%- elsif exclude_path contains '**' -%}
+          {%- if exclude_path contains '**' -%}
             {%- assign match = exclude_path | remove: '**' -%}
             {%- if html_page.path contains match -%}
               {%- assign exclude = true -%}
               {%- break -%}
             {%- endif -%}
           {%- endif -%}
-
         {%- endfor -%}
 
         {%- unless exclude -%}
