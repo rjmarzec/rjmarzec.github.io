@@ -25,12 +25,13 @@
         {%- endfor -%}
 
         {%- for exclude_path in site.nav_exclude -%}
+          {%- assign match = exclude_path -%}
           {%- if exclude_path contains '**' -%}
             {%- assign match = exclude_path | remove: '**' -%}
-            {%- if html_page.path contains match -%}
-              {%- assign exclude = true -%}
-              {%- break -%}
-            {%- endif -%}
+          {%- endif -%}
+          {%- if html_page.path contains exclude_path -%}
+            {%- assign exclude = true -%}
+            {%- break -%}
           {%- endif -%}
         {%- endfor -%}
 
