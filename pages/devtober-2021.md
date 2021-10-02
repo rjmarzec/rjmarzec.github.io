@@ -13,5 +13,5 @@ Devtober is a month all about staying productive day-to-day, even if that means 
   {% assign post_date = post.path | split: '/' | last | replace: '.md', '' %}
   <h3>{{ post.title }}</h3>
   <div style="display:flex;justify-content:flex-end"><h6> ({{ post_date }})</h6></div>
-  <p>{{ post.content }}</p>
+  <p>{{ post.content | markdownify}}</p>
 {% endfor %}
