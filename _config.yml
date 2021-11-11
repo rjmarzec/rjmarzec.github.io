@@ -19,6 +19,8 @@ nav_include:
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/privacy
   - pages/404
+  - pages/igda1
+  - pages/igda2
 
 
 ### Author Info ###
