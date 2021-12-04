@@ -7,9 +7,9 @@ weight: 3
 
 #### Hi there!  
 
-I'm Robert Marzec, and this is my website. Here you'll find a portfolio of my past projects, my resume, and a bit about me!
+I'm Robert Marzec, and this is my website. Here you'll find a portfolio of my past projects, my resume, and a bit about me!  
 
-I'm currently a Junior majoring in Computer Science and minoring in Business at the University of Michigan. I love cats, games, and building awesome experiences for people. Between weird hackathon games and random mobile tools, I've done some cool stuff.
+I'm currently a Junior majoring in Computer Science and minoring in Business at the University of Michigan. I love cats, games, and building awesome experiences for people. Between weird hackathon games and random mobile tools, I've done a lot of cool stuff that you can find here!  
 
 If you're looking for a software developer who doesn't take himself too seriously and comes bundled with lots of fun ideas, you've come to the right site. While we're at it, here's a fun picture of me with a smoothie:  
 
