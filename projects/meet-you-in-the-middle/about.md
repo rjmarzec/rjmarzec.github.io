@@ -5,6 +5,7 @@ tools: [Flutter, Dart]
 roles: [Sole Developer]
 release-date: 2021-03-23 # YYYY-MM-DD
 description: "Finally, a fair meetup coordination tool. If you've ever been unable to find a fair spot to meetup with friends, punch some addresses into the app and you'll be given a convenient midpoint to look around in no time."
+featured: true
 ---
 
 ### {{ page.title }}

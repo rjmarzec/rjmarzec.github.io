@@ -5,6 +5,7 @@ tools: [Unity]
 roles: [Producer, Programmer]
 release-date: 2021-08-11 # YYYY-MM-DD
 description: "Help the ocean take back the beach in this endless brick breaker! Will your aim and this crab's bubbles be enough to push back the tide of rowdy spring breakers?"
+featured: true
 ---
 
 ### {{ page.title }}

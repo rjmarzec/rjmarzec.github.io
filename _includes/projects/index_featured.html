@@ -1,0 +1,50 @@
+<div class="card-group mt-2">
+
+{% assign projects = site.pages | sort:'release-date' %}
+{% for project in projects reversed %}
+    {% if project.featured %}
+        {% if project.url contains "projects/" and project.name contains "about.md" %}
+            {% assign project_id    = project.title | slugify %}
+            {% assign project_name  = project.title %}
+            {% assign project_desc  = project.description %}
+            {% assign project_type  = project.type %}
+            {% assign project_tools = project.tools %}
+            {% assign project_roles = project.roles %}
+            {% assign project_url   = project.url | relative_url %}
+
+            {% assign preview_jpg = project.url | append: "/preview.jpg" %}
+            {% assign preview_png = project.url | append: "/preview.png" %}
+            {% assign preview_gif = project.url | append: "/preview.gif" %}
+
+            {% assign preview_jpg_exists = false %}
+            {% assign preview_png_exists = false %}
+            {% assign preview_gif_exists = false %}
+
+            {% for static_file in site.static_files %}
+                {% if static_file.path == preview_jpg %}
+                    {% assign preview_jpg_exists = true %}
+                {% endif %}
+                {% if static_file.path == preview_png %}
+                    {% assign preview_png_exists = true %}
+                {% endif %}
+                {% if static_file.path == preview_gif %}
+                    {% assign preview_gif_exists = true %}
+                {% endif %}
+            {% endfor %}
+
+            {% if preview_jpg_exists %}
+            {% capture project_preview %} {{ preview_jpg }} {% endcapture %}
+            {% endif %}
+            {% if preview_png_exists %}
+            {% capture project_preview %} {{ preview_png }} {% endcapture %}
+            {% endif %}
+            {% if preview_gif_exists %}
+            {% capture project_preview %} {{ preview_gif }} {% endcapture %}
+            {% endif %}
+
+            {% include projects/project-card.html %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+</div>
