@@ -16,11 +16,10 @@ plugins:
 nav_include:
   - pages/**
 
+
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/privacy
   - pages/404
-  - pages/igda1
-  - pages/igda2
 
 
 ### Author Info ###
@@ -53,9 +52,6 @@ permalink: /blog/:title
 ### Collections ###
 collections_dir: collections
 collections:
-  devtober-2021:
-    output: true
-    permalink: /:collection/:title
 # projects:
 #   output: true
 #   permalink: /projects/:name
@@ -124,7 +120,6 @@ exclude:
   - '*.log'
   - '*.css'
   - 'projects/*/*/index.html'
-  - post/projects
 
 ### Enabling incremental builds to improve build times locally
 incremental: true
