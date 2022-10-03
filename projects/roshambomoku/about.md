@@ -5,7 +5,6 @@ tools: [Flutter]
 roles: [Sole Developer]
 release-date: 2021-02-07 # YYYY-MM-DD
 description: "What happens when you cross rock-paper-scissors and 5-in-a-row? Roshambomoku! Snag up points by lining up your pieces, but be careful: your opponent can replace your piece! Play smart, plan ahead, and emerge victorious."
-featured: true
 ---
 
 ### {{ page.title }}
