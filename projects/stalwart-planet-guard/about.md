@@ -5,7 +5,6 @@ tools: [Unity, Adobe Illustrator]
 roles: [Sole Developer]
 release-date: 2022-10-02 # YYYY-MM-DD
 description: "Starworth is on a quest to build a new solar system, but pesky cats in UFOs keep getting in the way. Can you help this bright little star survive the attacks?"
-featured: true
 ---
 
 ### {{ page.title }}
@@ -14,21 +13,6 @@ featured: true
   <canvas id="unity-canvas" width=480 height=480 style="width: 480px; height: 480px; background: #231F20"></canvas>
   <script src="Build/WebGL_dev.loader.js"></script>
   <script>
-    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-      // Mobile device style: fill the whole browser client area with the game canvas:
-      var meta = document.createElement('meta');
-      meta.name = 'viewport';
-      meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-      document.getElementsByTagName('head')[0].appendChild(meta);
-
-      var canvas = document.querySelector("#unity-canvas");
-      canvas.style.width = "100%";
-      canvas.style.height = "100%";
-      canvas.style.position = "fixed";
-
-      document.body.style.textAlign = "left";
-    }
-
     createUnityInstance(document.querySelector("#unity-canvas"), {
       dataUrl: "Build/WebGL_dev.data",
       frameworkUrl: "Build/WebGL_dev.framework.js",
@@ -82,7 +66,7 @@ This time around I took a few recordings of my progress throughout the event, so
 
 Download the standalone Window's build by click [here]({{ page.url }}/stalwart-planet-guard-windows.zip)!
 
-Don't forget to also check out the game's [itch.io page](https://rjmarzec.itch.io/stalwart-planet-guard) and [Ludum Dare 51 submission](https://ldjam.com/events/ludum-dare/51/stalwart-planet-guard).
+Don't forget to also check out the game's [itch.io page](https://rjmarzec.itch.io/stalwart-planet-guard), [Ludum Dare 51 submission](https://ldjam.com/events/ludum-dare/51/stalwart-planet-guard), and [open source repo](https://github.com/rjmarzec/stalwart-planet-guard).
 
 ---
 

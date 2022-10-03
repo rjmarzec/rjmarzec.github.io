@@ -9,7 +9,7 @@ description: "You better have some toast on hand, because this toaster is ready 
 
 ### {{ page.title }}
 
-![{{ page.assets }}/preview.png]({{ page.url }}/preview.png)
+![{{ page.assets }}/preview.png]({{ page.url }}/preview.gif)
 
 <h1>
   <p style="text-align: center;">
