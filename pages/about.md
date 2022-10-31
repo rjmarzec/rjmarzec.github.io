@@ -7,9 +7,9 @@ weight: 3
 
 #### Hi there!  
 
-I'm Robert Marzec, and this is my website. Here you'll find a portfolio of my past projects, my resume, and a bit about me!  
+I'm Robert Marzec, and this is my website! Here you'll find a portfolio of my past projects, my resume, and a bit about me.  
 
-I'm currently a Junior majoring in Computer Science and minoring in Business at the University of Michigan. I love cats, games, and building awesome experiences for people. Between weird hackathon games and random mobile tools, I've done a lot of cool stuff that you can find here!  
+I'm currently a Senior majoring in Computer Science and minoring in Business and Music at the University of Michigan. I love cats, games, and building awesome experiences for people. Between weird game jam entries and random mobile tools, I've done a lot of cool stuff that you can find here!  
 
 If you're looking for a software developer who doesn't take himself too seriously and comes bundled with lots of fun ideas, you've come to the right site. While we're at it, here's a fun picture of me with a smoothie:  
 
@@ -17,10 +17,10 @@ If you're looking for a software developer who doesn't take himself too seriousl
 
 #### Credits  
 
-While this is my site, I'm not responsible for all the work behind it. I would like to extend a thanks to:
-- [Jekyll](https://jekyllrb.com/), the static site generator that made this site possible
-- [GitHub pages](https://pages.github.com/), for the free site hosting
-- [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU), the Jekyll theme this site started out from
+While we're here, I'd like to shoutout some of the free resources that made creating this website, namely:
+- [Jekyll](https://jekyllrb.com/), the static site generator used to build out pages
+- [GitHub pages](https://pages.github.com/), the (free!) host of this site
+- [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU), the website theme this site forked of off
 
 #### Privacy Policy
 
