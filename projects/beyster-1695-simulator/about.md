@@ -16,18 +16,14 @@ featured: true
 
 Beyster 1695 Simulator is a recreation of one of UMich's North Campus computer labs: room 1695 of the Bob and Betty Beyster Building. Although the layout is faithful to the actual lab, lots of liberties were taken in this remodel between all the trash scattered everywhere, the outdoor scenary (or lack thereof), and some of the inhabitants, among others.
 
-Beyster 1695 Simulator is my first full project developing in Unreal Engine and in VR, and that's because this project comes out of a class aimed at teaching XR. Working alongside my partner Agatha Ta-Goetz, this project got thrown together over the course of roughly 3 weeks. While I came into the project with lots of Unity experience, Unreal Engine's blueprints really through me for a loop. Some stuff felt super familiar, but for other tasks I had a lot of relearning to do. Namely, I'm still lost on how to cleanly have actors reference other specific actors or components, but hopefully that'll come with time. Confusion aside, this project was still a lot of fun! I got to put my Oculus Rift to use and work on some fun features like a super printer, whiteboard, and ~~beer~~ cup pong table in a random back room. The computer lab might not be the most interesting place in the world, even in a VR environment, but I sure did have fun on the journey putting this all together!
+Beyster 1695 Simulator is my first full project developing in Unreal Engine and in VR, and that's because this project comes out of a class aimed at teaching XR. Working alongside my partner [Agatha Ta-Goetz](https://github.com/agathata), this project was built in 3 weeks. While I came into the project with lots of Unity experience, Unreal Engine's blueprints really through me for a loop. Some stuff felt super familiar, but for other tasks I had a lot of relearning to do. Namely, I'm still lost on how to cleanly have actors reference other specific actors or components, but hopefully that'll come with time. Confusion aside, this project was still a lot of fun! I got to put my Oculus Rift to use and work on some fun features like a magic 3D printer, a whiteboard you could draw on, and ~~beer~~ cup pong table in a random back room. The computer lab might not be the most interesting place in the world, even in a VR environment, but I sure did have fun on the journey putting it all together!
 
 ---
 
 ### Significant features I implemented:
-* ~~Beer~~ Cup pong functionality
+* Beer pong
 * Working whiteboard
-* Object printer
-* Talking NPCs
-* "Realistic" time
-* Room structure block-out
-
----
-
-[Check out the project on GitHub here!](https://github.com/rjmarzec/quiet-in-the-deep)
+* Magic 3D printer
+* NPCs interactions
+* "Realistic" time of time changes
+* Room layout block-out
