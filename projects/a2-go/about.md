@@ -4,7 +4,7 @@ type: AR game
 tools: [Unity]
 roles: [Programmer]
 release-date: 2022-10-31 # YYYY-MM-DD
-description: "Tend to an ever-growing forest of trees while exploring the sights of Ann Arbor in this mobile AR experience!"
+description: "Tend to an ever-growing forest of trees while exploring the sights of Ann Arbor in this mobile AR experience! Just don't forget to fend off those pesky squirrels while you're here..."
 ---
 
 ### {{ page.title }}

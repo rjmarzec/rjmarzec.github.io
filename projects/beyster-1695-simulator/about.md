@@ -4,7 +4,7 @@ type: VR game
 tools: [Unreal Engine]
 roles: [Programmer]
 release-date: 2022-10-02 # YYYY-MM-DD
-description: "Explore a surrealist view of UMich's Beyster 1695 computer lab in the world of VR!"
+description: "Explore a surrealist view of UMich's Beyster 1695 computer lab in the world of VR! Be sure to speak with the locals, print an apple or two, and maybe even go play a round of beer pong in the back."
 featured: true
 ---
 
