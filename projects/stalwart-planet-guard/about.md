@@ -5,29 +5,13 @@ tools: [Unity, Adobe Illustrator]
 roles: [Sole Developer]
 release-date: 2022-10-02 # YYYY-MM-DD
 description: "Starworth is on a quest to build a new solar system, but pesky cats in UFOs keep getting in the way. Can you help this bright little star survive the attacks?"
+game-embed-width: 480
+game-embed-height: 480
 ---
-
 
 ### {{ page.title }}
 
-<div style="text-align: center; padding: 0; border: 0; margin: 0;">
-  <canvas id="unity-canvas" width=480 height=480 style="width: 480px; height: 480px; background: #231F20"></canvas>
-  <script src="/projects/stalwart-planet-guard/Build/WebGL_dev.loader.js"></script>
-  <script>
-    createUnityInstance(document.querySelector("#unity-canvas"), {
-      dataUrl: "/projects/stalwart-planet-guard/Build/WebGL_dev.data",
-      frameworkUrl: "/projects/stalwart-planet-guard/Build/WebGL_dev.framework.js",
-      codeUrl: "/projects/stalwart-planet-guard/Build/WebGL_dev.wasm",
-      streamingAssetsUrl: "StreamingAssets",
-      companyName: "rjmarzec Games",
-      productName: "Stalwart Planet Guard",
-      productVersion: "1.0",
-      // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-      // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
-    });
-  </script>
-</div>
-<br>
+{% include projects/unity-web-build.html %}
 
 > The legends say that every 10 seconds, a new planet is born…
 >
@@ -55,18 +39,21 @@ Stalwart Planet Guard was developed over 48 hours as part of the Ludum Dare 51 C
 
 This time around I took a few recordings of my progress throughout the event, so now I've got some development footage to share! Check out the gifs below.
 
+<br>
 ![progress-1.gif]({{ page.url }}/progress-1.gif)
 *A working planet spawning system and first pass on movement that would later be rebuilt.*
 
+<br>
 ![progress-2.gif]({{ page.url }}/progress-2.gif)
 *Fixed up movement (featuring being able to attach to planets) and a first sign of enemies in-game.*
 
+<br>
 ![progress-3.gif]({{ page.url }}/progress-3.gif)
 *A more complete build missing a few art assets and final polish.*
 
 ---
 
-Download the standalone Windows build by click [here]({{ page.url }}/stalwart-planet-guard-windows.zip)!
+Download the standalone Windows build by clicking [here]({{ page.url }}/stalwart-planet-guard-windows.zip)!
 
 Don't forget to also check out the game's [itch.io page](https://rjmarzec.itch.io/stalwart-planet-guard), [Ludum Dare 51 submission](https://ldjam.com/events/ludum-dare/51/stalwart-planet-guard), and [open source repo](https://github.com/rjmarzec/stalwart-planet-guard).
 

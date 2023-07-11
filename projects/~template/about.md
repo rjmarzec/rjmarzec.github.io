@@ -9,12 +9,29 @@ description: "A short description of the project."
 
 ### {{ page.title }}
 
-This is the about page for each project.   
+This is where basic text goes.  
+End with 2 spaces for a newline!
 
-Lots of fun stuff would be here, like my roles, a bit about the game, the video link, download links, and more!  
+<!--
+  Include an embedded player for a Unity game like this.
+  Remember to name the Unity export folder "WebGL" for this to work.
+  Specify the window width and height by adding these tags above:  
+    - unity-player-width: 894
+    - unity-player-height: 495
+-->
+{% include projects/unity-web-build.html %}
 
-This is how you link an image here:  
-![{{ page.assets }}/preview.png]({{ page.url }}/preview.png)  
+<!--
+  Include an embedded player for a YouTube video like this.
+  Specify the video & window width and height by adding these tags above:  
+    - youtube-video-id: LGWSEQF4kBg
+-->
+{% include projects/youtube-player.html %}
 
-[Postmortem Page Link]({{ page.url }}/postmortem)  
-[Play Page Link]({{ page.url }}/play)  
+<!-- This is how you link an internal image/file and render it. -->  
+![{{ page.assets }}/preview.png]({{ page.url }}/preview.png)
+
+<!-- This is how you hyperlink to another page or downloadable file. -->
+[External Link](https://itch.io/)  
+[Internal Link]({{ page.url }}/play)  
+[Click here to download]({{ page.url }}/stalwart-planet-guard-windows.zip)!

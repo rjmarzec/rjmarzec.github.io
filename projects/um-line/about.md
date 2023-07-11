@@ -1,32 +1,17 @@
 ---
-title: "''Um..., line?''"
+title: "“Um..., line?”"
 type: desktop game
 tools: [Unity, Adobe Illustrator]
 roles: [Sole Developer]
 release-date: 2023-07-09 # YYYY-MM-DD
 description: "After years of having to sit through awful acting performances, it's finally time for you to take revenge. Become the heckler and ruin performances the way you know best: chucking tomatoes!"
+game-embed-width: 894
+game-embed-height: 496
 ---
 
 ### {{ page.title }}
 
-<div style="text-align: center; padding: 0; border: 0; margin: 0;">
-  <canvas id="unity-canvas" width=800 height=480 style="width: 800px; height: 480px; background: #231F20"></canvas>
-  <script src="/projects/um-line/Build/WebGL.loader.js"></script>
-  <script>
-    createUnityInstance(document.querySelector("#unity-canvas"), {
-      dataUrl: "/projects/um-line/Build/WebGL.data",
-      frameworkUrl: "/projects/um-line/Build/WebGL.framework.js",
-      codeUrl: "/projects/um-line/Build/WebGL.wasm",
-      streamingAssetsUrl: "StreamingAssets",
-      companyName: "rjmarzec Games",
-      productName: "Um..., line - A game about heckling bad actors",
-      productVersion: "1.0",
-      // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-      // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
-    });
-  </script>
-</div>
-<br>
+{% include projects/unity-web-build.html %}
 
 > "A game about heckling bad actors."
 
@@ -50,20 +35,23 @@ A/Left Arrow & D/Right Arrow: Reposition left or right, respectively.
 
 Curious how development looked? Here's some progress milestone over the course of the event:
 
+<br>
 ![progress-1.gif]({{ page.url }}/progress-1.gif)
 *~12 hours in: Stage setup, moving actor, and tomato-launching system.*
 
+<br>
 ![progress-2.gif]({{ page.url }}/progress-2.gif)
 *~36 hours in: A working game flow with menus, and polished up core gameplay.*
 
+<br>
 ![progress-3.gif]({{ page.url }}/progress-3.gif)
 *Final product: Finished game with a bit more polish and extra bells & whistles.*
 
 ---
 
-Download the standalone Windows build by click [here]({{ page.url }}/um-line-windows.zip)!
+Download the standalone Windows build by clicking [here]({{ page.url }}/um-line-windows.zip)!
 
-Don't forget to also check out the game's [itch.io page](https://rjmarzec.itch.io/um-line), [GMTK Game Jam 2023](https://itch.io/jam/gmtk-2023/rate/2160631), and [open source repo](https://github.com/rjmarzec/gmtk-game-jam-2023).
+Don't forget to also check out the game's [itch.io page](https://rjmarzec.itch.io/um-line), [GMTK Game Jam 2023 Submission Page](https://itch.io/jam/gmtk-2023/rate/2160631), and [open source repo](https://github.com/rjmarzec/gmtk-game-jam-2023).
 
 ---
 
