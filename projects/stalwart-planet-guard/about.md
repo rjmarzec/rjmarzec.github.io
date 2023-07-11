@@ -7,16 +7,17 @@ release-date: 2022-10-02 # YYYY-MM-DD
 description: "Starworth is on a quest to build a new solar system, but pesky cats in UFOs keep getting in the way. Can you help this bright little star survive the attacks?"
 ---
 
+
 ### {{ page.title }}
 
 <div style="text-align: center; padding: 0; border: 0; margin: 0;">
   <canvas id="unity-canvas" width=480 height=480 style="width: 480px; height: 480px; background: #231F20"></canvas>
-  <script src="Build/WebGL_dev.loader.js"></script>
+  <script src="/projects/stalwart-planet-guard/Build/WebGL_dev.loader.js"></script>
   <script>
     createUnityInstance(document.querySelector("#unity-canvas"), {
-      dataUrl: "Build/WebGL_dev.data",
-      frameworkUrl: "Build/WebGL_dev.framework.js",
-      codeUrl: "Build/WebGL_dev.wasm",
+      dataUrl: "/projects/stalwart-planet-guard/Build/WebGL_dev.data",
+      frameworkUrl: "/projects/stalwart-planet-guard/Build/WebGL_dev.framework.js",
+      codeUrl: "/projects/stalwart-planet-guard/Build/WebGL_dev.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "rjmarzec Games",
       productName: "Stalwart Planet Guard",
@@ -26,6 +27,7 @@ description: "Starworth is on a quest to build a new solar system, but pesky cat
     });
   </script>
 </div>
+<br>
 
 > The legends say that every 10 seconds, a new planet is born…
 >

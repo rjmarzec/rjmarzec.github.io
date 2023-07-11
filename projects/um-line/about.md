@@ -11,12 +11,12 @@ description: "After years of having to sit through awful acting performances, it
 
 <div style="text-align: center; padding: 0; border: 0; margin: 0;">
   <canvas id="unity-canvas" width=800 height=480 style="width: 800px; height: 480px; background: #231F20"></canvas>
-  <script src="Build/WebGL.loader.js"></script>
+  <script src="/projects/um-line/Build/WebGL.loader.js"></script>
   <script>
     createUnityInstance(document.querySelector("#unity-canvas"), {
-      dataUrl: "Build/WebGL.data",
-      frameworkUrl: "Build/WebGL.framework.js",
-      codeUrl: "Build/WebGL.wasm",
+      dataUrl: "/projects/um-line/Build/WebGL.data",
+      frameworkUrl: "/projects/um-line/Build/WebGL.framework.js",
+      codeUrl: "/projects/um-line/Build/WebGL.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "rjmarzec Games",
       productName: "Um..., line - A game about heckling bad actors",
@@ -26,6 +26,7 @@ description: "After years of having to sit through awful acting performances, it
     });
   </script>
 </div>
+<br>
 
 > "A game about heckling bad actors."
 
