@@ -64,7 +64,7 @@ This time around I took a few recordings of my progress throughout the event, so
 
 ---
 
-Download the standalone Window's build by click [here]({{ page.url }}/stalwart-planet-guard-windows.zip)!
+Download the standalone Windows build by click [here]({{ page.url }}/stalwart-planet-guard-windows.zip)!
 
 Don't forget to also check out the game's [itch.io page](https://rjmarzec.itch.io/stalwart-planet-guard), [Ludum Dare 51 submission](https://ldjam.com/events/ludum-dare/51/stalwart-planet-guard), and [open source repo](https://github.com/rjmarzec/stalwart-planet-guard).
 
