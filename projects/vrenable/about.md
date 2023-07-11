@@ -11,9 +11,10 @@ featured: true
 ### {{ page.title }}
 
 <div style="text-align: center; padding: 0; border: 0; margin: 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dOHusIkNf1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/6V7gGVrtpxc" title="VREnable Trailer" frameborder="0" allow="accelerometer; autoplay = false; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!--
 <h1>
   <p style="text-align: center;">
       <a href="https://megalodon-oleander-nnd9.squarespace.com/">Check out the project website here!</a>
@@ -24,6 +25,7 @@ featured: true
       (password: vrenable)
   </p>
 </h3>
+-->
 
 vrEnable is a corporate empathy training tool designed to help your workers better understand what life is like for their impaired teammates by putting them through a day in their eyes. While many empathy training experiences exist, none quite fully capture or convey what the experience is like from the first person. By bringing these experiences into the world of VR, vrEnable seeks to better bridge the gap in understanding between coworkers with its world-class empathy training modules. Currently, vrEnable's main experience focus on demonstrating what life in an office space can look like for people with attention-deficit/hyperactivity disorder (ADHD).
 
@@ -41,11 +43,11 @@ Originally, our team actually wanted to put together a 3D modeling tool in VR ai
 * Sound system
 * Lots of small fixes, bugs, and merge conflicts
 * All basic task behaviors, including:
-* - Making coffee
-* - Printing & delivering a meeting agenda
-* - Talking to your boss
-* - Eating a sandwich
-* - Sending an email
+  * Making coffee
+  * Printing & delivering a meeting agenda
+  * Talking to your boss
+  * Eating a sandwich
+  * Sending an email
 
 ---
 
