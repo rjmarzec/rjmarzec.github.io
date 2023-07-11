@@ -6,11 +6,12 @@ roles: [Producer, Programmer]
 release-date: 2021-08-11 # YYYY-MM-DD
 description: "Help the ocean take back the beach in this endless brick breaker! Will your aim and this crab's bubbles be enough to push back the tide of rowdy spring breakers?"
 featured: true
+youtube-video-id: LGWSEQF4kBg
 ---
 
 ### {{ page.title }}
 
-<iframe width="100%" height="509" src="https://www.youtube.com/embed/LGWSEQF4kBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+{% include projects/youtube-player.html %}
 
 <div style="text-align: center">
   <a style="display: inline-block; border-radius: 13px; width: 250px; height: 83px;" href='https://apps.apple.com/us/app/crustacean-frustration/id1573784282?itsct=apps_box_badge&amp;itscg=30200' >

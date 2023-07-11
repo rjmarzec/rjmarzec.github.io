@@ -4,27 +4,28 @@ type: VR empathy training experience
 tools: [Unreal Engine]
 roles: [Programmer]
 release-date: 2022-12-08 # YYYY-MM-DD
-description: "Explore a surrealist view of UMich's Beyster 1695 computer lab in the world of VR! Be sure to speak with the locals, print an apple or two, and maybe even go play a round of beer pong in the back."
+description: "Experience what office life is like for with your coworkers with disabilities using the power of Virtual Reality with vrEnable, a new corporate empathy training tool."
 featured: true
+youtube-video-id: 6V7gGVrtpxc
 ---
 
 ### {{ page.title }}
 
-<div style="text-align: center; padding: 0; border: 0; margin: 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6V7gGVrtpxc" title="VREnable Trailer" frameborder="0" allow="accelerometer; autoplay = false; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include projects/youtube-player.html %}
 
 <!--
-<h1>
-  <p style="text-align: center;">
-      <a href="https://megalodon-oleander-nnd9.squarespace.com/">Check out the project website here!</a>
-  </p>
-</h1>
-<h3>
-  <p style="text-align: center;">
-      (password: vrenable)
-  </p>
-</h3>
+  Dead link to the project's squarespace page.
+
+  <h1>
+    <p style="text-align: center;">
+        <a href="https://megalodon-oleander-nnd9.squarespace.com/">Check out the project website here!</a>
+    </p>
+  </h1>
+  <h3>
+    <p style="text-align: center;">
+        (password: vrenable)
+    </p>
+  </h3>
 -->
 
 vrEnable is a corporate empathy training tool designed to help your workers better understand what life is like for their impaired teammates by putting them through a day in their eyes. While many empathy training experiences exist, none quite fully capture or convey what the experience is like from the first person. By bringing these experiences into the world of VR, vrEnable seeks to better bridge the gap in understanding between coworkers with its world-class empathy training modules. Currently, vrEnable's main experience focus on demonstrating what life in an office space can look like for people with attention-deficit/hyperactivity disorder (ADHD).
@@ -49,6 +50,7 @@ Originally, our team actually wanted to put together a 3D modeling tool in VR ai
   * Eating a sandwich
   * Sending an email
 
----
-
+<!--
+Project source code is private on GitHub.
 [Check out the project on GitHub here!](https://github.com/rjmarzec/vrEnable)
+-->

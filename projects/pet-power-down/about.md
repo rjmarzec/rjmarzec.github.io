@@ -5,11 +5,12 @@ tools: [GameMaker Studio 2]
 roles: [Producer, Programmer]
 release-date: 2019-12-15 # YYYY-MM-DD
 description: "On a stormy night your power suddenly cuts out, leaving you stranded and alone in the dark. You can't leave all your pets in the dark! Navigate through your home using echolocation in this maze game designed for the visual impaired."
+youtube-video-id: QV19qDMiBSQ
 ---
 
 ### {{ page.title }}
 
-<iframe width="100%" height="509" src="https://www.youtube.com/embed/QV19qDMiBSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+{% include projects/youtube-player.html %}
 
 <h1>
   <p style="text-align: center;">

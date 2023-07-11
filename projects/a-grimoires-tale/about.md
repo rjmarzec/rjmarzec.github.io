@@ -5,12 +5,13 @@ tools: [Unity, Adobe Illustrator]
 roles: [Producer, Programmer, Artist, Audio]
 release-date: 2021-04-21 # YYYY-MM-DD
 description: "The evil wizard has returned to steal the secrets of magic from the library! Sling all sorts of combined spells to take down him and his lackeys in this fast-paced action deckbuilder."
+youtube-video-id: 1fcMwpITjCY
 featured: true
 ---
 
 ### {{ page.title }}
 
-<iframe width="100%" height="509" src="https://www.youtube.com/embed/1fcMwpITjCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+{% include projects/youtube-player.html %}
 
 <h1>
   <p style="text-align: center;">
